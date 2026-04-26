@@ -118,7 +118,7 @@ TextureImporter:
         width: 138
         height: 160
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -139,7 +139,7 @@ TextureImporter:
         width: 132
         height: 161
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -160,7 +160,7 @@ TextureImporter:
         width: 132
         height: 160
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -181,7 +181,7 @@ TextureImporter:
         width: 134
         height: 160
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -189,6 +189,27 @@ TextureImporter:
       bones: []
       spriteID: 1f2c710f556d17843be2cdba2fb84a68
       internalID: -1664560307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colorful_robot_quartet_standing_together-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 121
+        width: 560
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae481771e6c522b45880b6bda7a8b880
+      internalID: -1509104065
       vertices: []
       indices: 
       edges: []
@@ -224,6 +245,7 @@ TextureImporter:
       Colorful_robot_quartet_standing_together-removebg-preview_1: -662070724
       Colorful_robot_quartet_standing_together-removebg-preview_2: -2025213072
       Colorful_robot_quartet_standing_together-removebg-preview_3: -1664560307
+      Colorful_robot_quartet_standing_together-removebg-preview_4: -1509104065
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -8,7 +8,7 @@ public class MatchModeController : MonoBehaviour {
 
 	public Sprite[] spriteMute;
 	public Button buttonMute;
-	public Button mode1Button;
+	public Button buttonMode1;
 
 	void Start()
 	{

@@ -8,10 +8,10 @@ public class ModeController : MonoBehaviour
 {
     public Sprite[] spriteMute;
 	public Button buttonMute;
+	public Button buttonInfo;
+	public Button buttonReturn;
     
     public static SoundManager Instance {get; set;}
-
-    public AudioSource music;
 
     void Start()
 	{
@@ -30,4 +30,16 @@ public class ModeController : MonoBehaviour
     {
         SceneManager.LoadScene("MainMenu");
     }
+
+	public void ButtonMute()
+	{
+		SoundManager.Instance.MuteSound();
+		if(SoundManager.Instance.music.mute == true)
+		{
+			buttonMute.image.sprite = spriteMute[1];
+		}
+		else{
+			buttonMute.image.sprite = spriteMute[0];
+		}
+	}
 }

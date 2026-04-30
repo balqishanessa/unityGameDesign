@@ -4,12 +4,11 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class menuControllerScript : MonoBehaviour {
+public class MatchModeController : MonoBehaviour {
 
 	public Sprite[] spriteMute;
 	public Button buttonMute;
-
-    public AudioSource music;
+	public Button mode1Button;
 
 	void Start()
 	{
@@ -24,10 +23,9 @@ public class menuControllerScript : MonoBehaviour {
 		}
 	}
 
-	// Load Scene 01 when start button is pressed
-	public void StartGame()
+	public void Mode1()
 	{
-		SceneManager.LoadScene ("matchMode");
+		SceneManager.LoadScene("Mode1");
 	}
 
 	//switch mute button on and off
